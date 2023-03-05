@@ -16,20 +16,20 @@ class Guest extends BaseController
              . view('guest/index')
              . view('templates/footer');
     }
-    public function view($id = null)
+    public function view()
     {
       $model = model(GuestModel::class);
   
-      $data['guest'] = $model->getGuest($id);
+      $data['guest'] = $model->getGuest();
   
       if (empty($data['guest'])) {
         throw new PageNotFoundException('Cannot find the guest with the ID: ' . $id);
       }
   
-      $data['title'] = 'Guest list';
+      $data['title'] = 'Guestbook';
   
       return view('templates/header', $data)
-        . view('guest/view')
+        . view('guest/index')
         . view('templates/footer');
     }
 	
