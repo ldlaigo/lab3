@@ -5,7 +5,6 @@
   <a href="create">CONFESS!</a>
 </div>
 <div class = "divbody">
-<div class="divbody">
 
 <h2>Become a Guest!</h2>
 
