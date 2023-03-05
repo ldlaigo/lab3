@@ -3,7 +3,16 @@
 namespace App\Controllers;
 
 use App\Models\NewsModel;
-
+?>
+<div class="topnav">
+  <a class ="icon" href="home"><img src="https://64.media.tumblr.com/e0b978612c68d83635151d03fa995a0c/e1089a909f72b296-c7/s540x810/640bd85b2a8cc63ab5d08ee11459fec87c3a681a.jpg" style="width:48px;height:48px; margin:0px; margin-bottom:-5px;"></a>
+  <a href="home">Home</a>
+  <a class="active" href="news">SIMP CONFESSIONS</a>
+  <a href="create">MAKE CONFESSIONS</a>
+</div>
+<div class = "divbody">
+<h5>This is a work of fiction. Names, characters, places and incidents either are products of the author’s imagination or are used fictitiously. Any resemblance to actual events or locales or persons, living or dead, is entirely coincidental. </h5>
+<?php
 class News extends BaseController
 {
     public function index()
@@ -12,7 +21,7 @@ class News extends BaseController
 
         $data = [
             'news'  => $model->getNews(),
-            'title' => 'News archive',
+            'title' => 'Simp Confession',
         ];
 
         return view('templates/header', $data)
@@ -75,3 +84,4 @@ class News extends BaseController
             . view('templates/footer');
     }
 }
+?>

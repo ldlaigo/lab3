@@ -1,3 +1,5 @@
+<div class="divbody">
+
 <h2><?= esc($title) ?></h2>
 
 <?= session()->getFlashdata('error') ?>
