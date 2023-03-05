@@ -16,8 +16,5 @@ class NewsModel extends Model
 
         return $this->where(['slug' => $slug])->first();
     }
-class NewsModel extends Model
-{
-	protected $table = 'ldlaigo_guest';
 }
-}
+?>

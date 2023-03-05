@@ -8,6 +8,7 @@
 		<p><?= esc(guest_item['email'])?>
 		<p><?= esc(guest_item['comment'])?>
 		</div>
+	<?php endforeach ?>
 	<?php else: ?>
 	<h3> No guest</h3>
 	<p>Unable to find any guest for you.</p>
