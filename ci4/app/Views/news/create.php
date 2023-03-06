@@ -7,7 +7,7 @@
 <?= session()->getFlashdata('error') ?>
 <?= validation_list_errors() ?>
 
-<form action="/lab3/ci4/public/success" method="post">
+<form action="/~ldlaigo/lab3/ci4/public/success" method="post">
     <?= csrf_field() ?>
 
     <label for="title">Type of Confession</label>

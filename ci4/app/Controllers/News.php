@@ -6,12 +6,12 @@ use App\Models\NewsModel;
 use CodeIgniter\Exceptions\PageNotFoundException;
 ?>
 <div class="topnav">
-  <a class ="icon" href="/lab3/ci4/public/home"><img src="https://64.media.tumblr.com/e0b978612c68d83635151d03fa995a0c/e1089a909f72b296-c7/s540x810/640bd85b2a8cc63ab5d08ee11459fec87c3a681a.jpg" style="width:48px;height:48px; margin:0px; margin-bottom:-5px;"></a>
-  <a href="/lab3/ci4/public/home">Home</a>
-  <a class="active" href="/lab3/ci4/public/news">SIMP CONFESSIONS</a>
-  <a href="/lab3/ci4/public/create">CONFESS!</a>
-  <a href="/lab3/ci4/public/guest">MEMBERS LIST</a>
-  <a href="/lab3/ci4/public/guest/create">BE A MEMBER!</a>
+  <a class ="icon" href="/~ldlaigo/lab3/ci4/public/home"><img src="https://64.media.tumblr.com/e0b978612c68d83635151d03fa995a0c/e1089a909f72b296-c7/s540x810/640bd85b2a8cc63ab5d08ee11459fec87c3a681a.jpg" style="width:48px;height:48px; margin:0px; margin-bottom:-5px;"></a>
+  <a href="/~ldlaigo/lab3/ci4/public/home">Home</a>
+  <a class="active" href="/~ldlaigo/lab3/ci4/public/news">SIMP CONFESSIONS</a>
+  <a href="/~ldlaigo/lab3/ci4/public/create">CONFESS!</a>
+  <a href="/~ldlaigo/lab3/ci4/public/guest">MEMBERS LIST</a>
+  <a href="/~ldlaigo/lab3/ci4/public/guest/create">BE A MEMBER!</a>
 </div>
 <div class = "divbody">
 <h5>This is a work of fiction. Names, characters, places and incidents either are products of the author’s imagination or are used fictitiously. Any resemblance to actual events or locales or persons, living or dead, is entirely coincidental. </h5>
