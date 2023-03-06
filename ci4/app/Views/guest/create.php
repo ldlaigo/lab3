@@ -6,7 +6,7 @@
 <?= session()->getFlashdata('error') ?>
 <?= validation_list_errors() ?>
 
-<form action="/~ldlaigo/lab3/ci4/public/guest/success" method="post">
+<form action="/~ldlaigo/lab3/ci4/public/guest/create" method="post">
     <?= csrf_field() ?>
 
    <label for="name">Name</label>
